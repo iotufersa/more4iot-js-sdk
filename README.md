@@ -1,13 +1,21 @@
 # MORE4IoT JS SDK
 MORE4IoT JavaScript SDK
 
-## Using
+### Install
 
 ~~~prompt
 npm install more4iot-js-sdk --save
 ~~~
 
-## Example
+### Default Configs
 ~~~javascript
-const more4iot = require("more4iot-js-sdk");
+const mcs = require("more4iot-js-sdk/config/services");
+~~~
+### Microservices Routes
+~~~javascript
+const routes = require("more4iot-js-sdk/config/routes");
+~~~
+### Using Service Registry
+~~~javascript
+const rg = require("more4iot-js-sdk/registry");
 ~~~

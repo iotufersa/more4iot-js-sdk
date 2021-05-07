@@ -1,0 +1,26 @@
+{
+  "name": "@iotufersa/more4iot-js-sdk",
+  "version": "0.1.0",
+  "description": "MORE4IoT JavaScript SDK",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iotufersa/more4iot-js-sdk.git"
+  },
+  "keywords": [
+    "iot-platform",
+    "middleware",
+    "sdk"
+  ],
+  "author": "IoT Ufersa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iotufersa/more4iot-js-sdk/issues"
+  },
+  "homepage": "https://github.com/iotufersa/more4iot-js-sdk",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

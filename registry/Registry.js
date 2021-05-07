@@ -14,19 +14,19 @@ class Registry {
 
   async sendRegistry(name, ip, port){
     return await axios.post(
-      `http://${host}:${port}`,
-      build(name, ip, port)
+      `http://${this.host}:${this.port}`,
+      this.build(name, ip, port)
     );
   }
   
   async getService(name) {
     return await axios.get(
-      `http://${host}:${port}/${name}`
+      `http://${this.host}:${this.port}/${name}`
     );
   }
   
   async getServiceIPAndPort(name){
-    const { data } = await getService(name);
+    const { data } = await this.getService(name);
     return `http://${data.ipv4}:${data.port}`;
   }
 }

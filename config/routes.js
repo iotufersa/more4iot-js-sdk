@@ -1,3 +1,5 @@
+const topic = 'more4iot';
+
 const actionCommunicatorRouteNotify = 'actionCommunicator/notify';
 
 const actionManagerRouteSave = 'actions/inscribe';
@@ -77,5 +79,7 @@ exports.req_dataManagerRouteGetLastByUuid = req_dataManagerRouteGetLastByUuid;
 exports.req_actionCommunicatorRouteNotify = req_actionCommunicatorRouteNotify;
 
 exports.inputCommunicatorRoute = inputCommunicatorRoute;
+
+exports.topic = topic;
 
 

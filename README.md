@@ -15,6 +15,10 @@ const mcs = require("more4iot-js-sdk/config/services");
 ~~~javascript
 const routes = require("more4iot-js-sdk/config/routes");
 ~~~
+### Protocols
+~~~javascript
+const protocols = require("more4iot-js-sdk/config/protocols");
+~~~
 ### Using Service Registry
 ~~~javascript
 const rg = require("more4iot-js-sdk/registry");

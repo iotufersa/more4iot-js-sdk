@@ -1,4 +1,6 @@
-const topic = 'more4iot';
+const async_input = 'more4iot';
+const async_data = 'async_data';
+const async_action = 'async_action';
 
 const actionCommunicatorRouteNotify = 'actionCommunicator/notify';
 
@@ -80,6 +82,6 @@ exports.req_actionCommunicatorRouteNotify = req_actionCommunicatorRouteNotify;
 
 exports.inputCommunicatorRoute = inputCommunicatorRoute;
 
-exports.topic = topic;
-
-
+exports.async_input = async_input;
+exports.async_data = async_data;
+exports.async_action = async_action;

@@ -1,6 +1,6 @@
-const async_input = 'more4iot';
-const async_data = 'async_data';
-const async_action = 'async_action';
+const async_input = 'input';
+const async_data = 'data';
+const async_action = 'action';
 
 const actionCommunicatorRouteNotify = 'actionCommunicator/notify';
 

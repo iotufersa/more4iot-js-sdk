@@ -12,7 +12,8 @@ const actionManagerRouteNotifyActionCommunicator = 'actions/notify';
 const deviceManagerRouteSave = 'devices/inscribe';
 const deviceManagerRouteUpdate = 'devices/update';
 const deviceManagerRouteGetAll = 'devices';
-const deviceManagerRouteCheckDevice = 'devices';
+const deviceManagerRouteFindDevice = 'devices';
+const deviceManagerRouteCheckDevice = 'devices/verify';
 const deviceManagerRouteDelete = 'devices/delete';
 
 const dataManagerRouteSave = 'datas/persist';
@@ -24,7 +25,8 @@ const dataManagerRouteDelete = 'datas/delete';
 const req_deviceManagerRouteSave = 'devices/inscribe';
 const req_deviceManagerRouteUpdate = 'devices/update';
 const req_deviceManagerRouteGetAll = 'devices';
-const req_deviceManagerRouteCheckDevice = 'devices';
+const req_deviceManagerRouteFindDevice = 'devices';
+const req_deviceManagerRouteCheckDevice = 'devices/verify';
 const req_deviceManagerRouteDelete = 'devices/delete';
 
 const req_dataManagerRouteSave = 'datas/persist';
@@ -53,6 +55,7 @@ exports.deviceManagerRouteSave = deviceManagerRouteSave;
 exports.deviceManagerRouteUpdate = deviceManagerRouteUpdate;
 exports.deviceManagerRouteDelete = deviceManagerRouteDelete;
 exports.deviceManagerRouteGetAll = deviceManagerRouteGetAll;
+exports.deviceManagerRouteFindDevice = deviceManagerRouteFindDevice;
 exports.deviceManagerRouteCheckDevice = deviceManagerRouteCheckDevice;
 
 exports.dataManagerRouteSave = dataManagerRouteSave;
@@ -70,6 +73,7 @@ exports.req_deviceManagerRouteSave = req_deviceManagerRouteSave;
 exports.req_deviceManagerRouteUpdate = req_deviceManagerRouteUpdate;
 exports.req_deviceManagerRouteDelete = req_deviceManagerRouteDelete;
 exports.req_deviceManagerRouteGetAll = req_deviceManagerRouteGetAll;
+exports.req_deviceManagerRouteFindDevice = req_deviceManagerRouteFindDevice;
 exports.req_deviceManagerRouteCheckDevice = req_deviceManagerRouteCheckDevice;
 
 exports.req_dataManagerRouteSave = req_dataManagerRouteSave;

@@ -9,12 +9,12 @@ const actionManagerRouteGetActionsByUuid = 'actions';
 const actionManagerRouteGetAll = 'actions';
 const actionManagerRouteNotifyActionCommunicator = 'actions/notify';
 
-const deviceManagerRouteSave = 'resources/inscribe';
-const deviceManagerRouteUpdate = 'resources/update';
-const deviceManagerRouteGetAll = 'resources';
-const deviceManagerRouteFind = 'resources';
-const deviceManagerRouteCheck = 'resources/verify';
-const deviceManagerRouteDelete = 'resources/delete';
+const resourceManagerRouteSave = 'resources/inscribe';
+const resourceManagerRouteUpdate = 'resources/update';
+const resourceManagerRouteGetAll = 'resources';
+const resourceManagerRouteFind = 'resources';
+const resourceManagerRouteCheck = 'resources/verify';
+const resourceManagerRouteDelete = 'resources/delete';
 
 const dataManagerRouteSave = 'datas/persist';
 const dataManagerRouteGetDataByUuid = 'datas';
@@ -31,12 +31,12 @@ exports.actionManagerRouteGetActionsByUuid = actionManagerRouteGetActionsByUuid;
 exports.actionManagerRouteGetAll = actionManagerRouteGetAll;
 exports.actionManagerRouteNotifyActionCommunicator = actionManagerRouteNotifyActionCommunicator;
 
-exports.deviceManagerRouteSave = deviceManagerRouteSave;
-exports.deviceManagerRouteUpdate = deviceManagerRouteUpdate;
-exports.deviceManagerRouteDelete = deviceManagerRouteDelete;
-exports.deviceManagerRouteGetAll = deviceManagerRouteGetAll;
-exports.deviceManagerRouteFindDevice = deviceManagerRouteFind;
-exports.deviceManagerRouteCheckDevice = deviceManagerRouteCheck;
+exports.resourceManagerRouteSave = resourceManagerRouteSave;
+exports.resourceManagerRouteUpdate = resourceManagerRouteUpdate;
+exports.resourceManagerRouteDelete = resourceManagerRouteDelete;
+exports.resourceManagerRouteGetAll = resourceManagerRouteGetAll;
+exports.resourceManagerRouteFind = resourceManagerRouteFind;
+exports.resourceManagerRouteCheck = resourceManagerRouteCheck;
 
 exports.dataManagerRouteSave = dataManagerRouteSave;
 exports.dataManagerRouteGetDataByUuid = dataManagerRouteGetDataByUuid;

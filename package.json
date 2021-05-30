@@ -1,6 +1,6 @@
 {
   "name": "@iotufersa/more4iot-js-sdk",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "MORE4IoT JavaScript SDK",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/iotufersa/more4iot-js-sdk",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "debug": "^4.3.1"
   }
 }

@@ -24,6 +24,9 @@ const dataManagerRouteDelete = 'datas/delete';
 
 const inputCommunicatorRoute = 'inputCommunicator';
 
+const serviceRegistryRouteInscribe = "registry";
+const serviceRegistryRouteGet = "registry"
+
 exports.actionCommunicatorRouteNotify = actionCommunicatorRouteNotify;
 
 exports.actionManagerRouteSave = actionManagerRouteSave;
@@ -45,6 +48,9 @@ exports.dataManagerRouteGetLastByUuid = dataManagerRouteGetLastByUuid;
 exports.dataManagerRouteDelete = dataManagerRouteDelete;
 
 exports.inputCommunicatorRoute = inputCommunicatorRoute;
+
+exports.serviceRegistryRouteGet = serviceRegistryRouteGet;
+exports.serviceRegistryRouteInscribe = serviceRegistryRouteInscribe;
 
 exports.async_input = async_input;
 exports.async_data = async_data;

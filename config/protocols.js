@@ -1,5 +1,5 @@
 module.exports = {
-  REST:"rest",
+  HTTP_REST:"http_rest",
   MQTT:"mqtt",
   AMQP:"amqp",
   COAP:"coap",

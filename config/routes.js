@@ -8,6 +8,7 @@ const actionManagerRouteSave = 'actions/inscribe';
 const actionManagerRouteGetActionsByUuid = 'actions';
 const actionManagerRouteGetAll = 'actions';
 const actionManagerRouteNotifyActionCommunicator = 'actions/notify';
+const actionManagerRouteDelete = 'actions/delete';
 
 const resourceManagerRouteSave = 'resources/inscribe';
 const resourceManagerRouteUpdate = 'resources/update';
@@ -33,6 +34,7 @@ exports.actionManagerRouteSave = actionManagerRouteSave;
 exports.actionManagerRouteGetActionsByUuid = actionManagerRouteGetActionsByUuid;
 exports.actionManagerRouteGetAll = actionManagerRouteGetAll;
 exports.actionManagerRouteNotifyActionCommunicator = actionManagerRouteNotifyActionCommunicator;
+exports.actionManagerRouteDelete = actionManagerRouteDelete;
 
 exports.resourceManagerRouteSave = resourceManagerRouteSave;
 exports.resourceManagerRouteUpdate = resourceManagerRouteUpdate;
